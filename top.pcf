@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sun Dec 03 01:32:01 2017
+// Written by: Map P.20131013 on Sun Dec 03 02:23:22 2017
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -11,11 +11,12 @@ COMP "DS_D" LOCATE = SITE "P82" LEVEL 1;
 COMP "DS_E" LOCATE = SITE "P81" LEVEL 1;
 COMP "DS_F" LOCATE = SITE "P78" LEVEL 1;
 COMP "DS_G" LOCATE = SITE "P84" LEVEL 1;
-COMP "de_ADDAT" LOCATE = SITE "P98" LEVEL 1;
-COMP "de_ADCLK" LOCATE = SITE "P94" LEVEL 1;
 COMP "ADDAT" LOCATE = SITE "P59" LEVEL 1;
-COMP "de_ADCSN" LOCATE = SITE "P95" LEVEL 1;
+COMP "LED_1" LOCATE = SITE "P95" LEVEL 1;
+COMP "LED_2" LOCATE = SITE "P98" LEVEL 1;
+COMP "LED_3" LOCATE = SITE "P94" LEVEL 1;
 COMP "ADCLK" LOCATE = SITE "P55" LEVEL 1;
+COMP "LED_4" LOCATE = SITE "P97" LEVEL 1;
 COMP "ADCSN" LOCATE = SITE "P61" LEVEL 1;
 COMP "DS_EN3" LOCATE = SITE "P67" LEVEL 1;
 COMP "CLK" LOCATE = SITE "P56" LEVEL 1;

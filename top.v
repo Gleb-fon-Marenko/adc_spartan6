@@ -19,9 +19,9 @@ module top(
 	output ADCSN,ADCLK,	
 	input ADDAT,
 	
-	output de_ADCSN,
+	output LED_1,
 	reg DP,
-	output de_ADCLK,de_ADDAT
+	output LED_2,LED_3,LED_4
 	
 	
 );
@@ -81,10 +81,10 @@ always@(posedge ADCLK)
 assign ADCSN=div[20];
 assign ADCLK=div[13];
 
-assign de_ADCLK= 1;
-assign de_ADDAT= 1;
-
-assign de_ADCSN=1;
+assign LED_1= 1;
+assign LED_2= 1;
+assign LED_4=1;
+assign LED_3=1;
 
 reg [28:0]div;
 always@(posedge CLK) div<=div+1;
