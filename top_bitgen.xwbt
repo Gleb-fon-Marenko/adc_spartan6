@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\14.7\ISE_DS\5-Example\3-example_dt_1\top.ncd
+OUTFILE=D:\14.7\ISE_DS\5-Example\3-example_dt_1\top.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=D:\14.7\ISE_DS\5-Example\3-example_dt_1
+LICENSE=WebPack
+USER_INFO=__0_0_0
